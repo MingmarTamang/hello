@@ -1,0 +1,158 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: #000
+}
+
+body {
+
+	background-color: #cec9c9;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+	overflow: hidden;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #fff;
+	height: 80px;
+}
+
+nav ul {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+
+}
+
+nav ul li {
+	list-style: none;
+	margin: 0 23px;
+}
+
+nav ul li a {
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	margin-top: 40px;
+}
+
+nav ul li a:hover {
+	text-decoration: none;
+	color: #ff0000;
+	font-size: 1.05rem;
+	background: #ddd;
+	margin-top: 40px;
+}
+
+main hr {
+	border: 0;
+	background: #9c98f1;
+	height: 1.2px;
+	margin: 40px 80px;
+
+}
+
+.left {
+	font-size: 1.5rem;
+	text-decoration: none;
+}
+
+.firstsection {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 100px 0;
+}
+
+.firstsection>div {
+	width: 80%;
+}
+
+.leftsection {
+	font-size: 3rem;
+}
+
+.rightsection {
+	width: 40%;
+	margin: 30px 0;
+}
+
+img {
+	width: 80%;
+	margin-left: 70px;
+}
+
+.purple {
+	color: #ff0000
+}
+
+.text-gray {
+	color: #000;
+}
+
+#element {
+	color: #ff0000
+}
+
+.secondSection {
+	max-width: 80vw;
+	margin: auto;
+	height: 80vh;
+}
+
+.secondSection .box {
+	background: white;
+	width: 80vw;
+	height: 2px;
+	margin: 100px 0;
+	display: flex;
+}
+
+.secondSection h1 {
+	font-size: 1.9rem;
+}
+
+.secondSection .vertical {
+	height: 50px;
+	width: 2px;
+	background-color: white;
+	margin: 0 240px;
+}
+
+.image-top {
+	width: 90px;
+	position: relative;
+	top: -80px;
+	left: -110px;
+}
+
+.vertical-title {
+	position: relative;
+	top: 30px;
+	width: 180px;
+}
+
+.vertical-desc {
+	position: relative;
+	top: 30px;
+	width: 180px;
+	color: gray;
+}
+
+/* Styles for About*/
+.leftsection_about {
+	font-size: 2rem;
+	width: 60%;
+	display: flex;
+	/* justify-content: space-around; */
+	align-items: center;
+	margin: 100px 0;
+}
